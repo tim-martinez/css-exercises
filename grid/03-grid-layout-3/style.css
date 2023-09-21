@@ -5,6 +5,13 @@
 
 .container {
   text-align: center;
+  display: grid;
+  grid: 1fr 1fr 1fr 1fr/ 1fr 2fr;
+  grid-template-areas: 
+    "header header"
+    "sidebar nav"
+    "sidebar article"
+    "footer footer";
 }
 
 .container div {
@@ -17,6 +24,7 @@
 
 .header {
   background-color: #393f4d;
+  grid-area: header;
 }
 
 .menu ul,
@@ -26,6 +34,7 @@
 
 .sidebar {
   background-color: #FF7755;
+  grid-area: sidebar;
 }
 
 .sidebar .photo {
@@ -46,6 +55,7 @@
 
 .nav {
   background-color: #FF7755;
+  grid-area: nav;
 }
 
 .nav ul li {
@@ -55,6 +65,7 @@
 
 .article {
   background-color: #bccbde;
+  grid-area: article;
 }
 
 .article p {
@@ -83,6 +94,7 @@
 
 .footer {
   background-color: #393f4d;
+  grid-area: footer;
 }
 
 .footer p {
