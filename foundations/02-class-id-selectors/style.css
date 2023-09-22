@@ -1,0 +1,19 @@
+.class1 {
+    background-color: #ffa1a1;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#div1 {
+    color:#0000ff;
+    font-size: 36px;
+    
+}
+
+#div2, .class2 {
+    font-size: 24px;
+}
+
+#div2 {
+    background-color: #90ee90;
+    font-weight: bold;
+}
